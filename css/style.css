@@ -1,0 +1,102 @@
+/* #########################################################
+###                         SHARED
+########################################################## */
+
+body {
+    background: #b39f8bae;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+h1 {
+    font-family: Cormorant Garamond;
+    font-size: 60px;
+    text-decoration: underline;
+    margin: 0.5em 0;
+    color: #5A5550;
+}
+
+h2 {
+    font-size: 25px;
+    color: #5A5550;
+}
+
+/* #########################################################
+###                         HEADER
+########################################################## */
+
+header {
+    background-color: #b39f8bd3;
+    width: 100%;
+    padding: 0.5em;
+    text-align: center;
+    color: #5A5550;
+}
+
+/* #########################################################
+###                         CONTENT
+########################################################## */
+
+#main-container {
+    width: 1100px;
+    margin: 3em auto;
+    background-color: #CDBEAF;
+    color: #5A5550;
+}
+
+#main-container section {
+    background: rgba(255, 255, 255, 0.499);
+    margin: 2em auto;
+    padding: 1em;
+}
+
+#main-container h2 {
+    font-size: 30px;
+    text-decoration: underline;
+    color: #5A5550;
+}
+
+#main-container h3 {
+    font-size: 25px;
+    text-decoration: underline;
+    color: #554f4a;
+}
+
+#main-container p {
+    font-size: 20px;
+}
+
+#main-container ul {
+    font-size: 18px;
+}
+
+@media (max-width: 600px) {
+    #main-container {
+        width: 88%;
+    }
+}
+
+#Grenouille {
+    display: flex;
+    gap: 1em;
+}
+
+#W3school {
+    display: flex;
+    gap: 1em;
+}
+
+#MDN {
+    display: flex;
+    gap: 1em;
+}
+
+#chat_button {
+    padding: 1em;
+    background: #5A5550;
+    color: white;
+    border: 0;
+    margin-bottom: 1em;
+    cursor: pointer;
+}

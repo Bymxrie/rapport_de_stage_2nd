@@ -5,7 +5,7 @@
 ```sh
 pwd /home/utilisateur/projets
 ```
-- ### mkdir = *créer un dossier qui s'appel test*  
+- ### mkdir = *créer un dossier qui s'appel nom_du_dossier*  
 ```sh
 mkdir nom_du_dossier
 ```
